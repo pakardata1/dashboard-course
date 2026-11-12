@@ -6,6 +6,7 @@ Semua perintah dijalankan dari folder ini.
 ## Setup
     python -m venv .venv
     .venv\Scripts\activate          # Windows
+
     source .venv/bin/activate       # macOS/Linux
     pip install -r requirements.txt
 
@@ -38,9 +39,10 @@ Pilih menu:
 Terminal → New Terminal
 
 Jalankan:
-git init
-git add .
-git commit -m "Initial commit"
+
+> git init
+> git add .
+> git commit -m "Initial commit"
 
 
 ## Hubungkan dengan GitHub
@@ -50,11 +52,11 @@ git commit -m "Initial commit"
 3. Kembali ke Terminal VS Code.
 4. Jalankan perintah berikut (ganti USERNAME dengan username GitHub Anda).
 
-git branch -M main
-git remote add origin https://github.com/USERNAME/dashboard-course.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+> git branch -M main
+> git remote add origin https://github.com/USERNAME/dashboard-course.git
+> git add .
+> git commit -m "Initial commit"
+> git push -u origin main
 
 
 ## Deploy ke Streamlit Cloud
