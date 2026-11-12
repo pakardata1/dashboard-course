@@ -1,4 +1,5 @@
-# sesi6/app_dash_plotly.py — menampilkan chart Plotly di aplikasi Dash
+# .venv/bin/python sesi6/app_dash_plotly.py — menampilkan chart Plotly di aplikasi Dash
+
 from pathlib import Path
 import pandas as pd
 import plotly.express as px
@@ -43,4 +44,4 @@ app.layout = html.Div(style={"maxWidth": "1150px", "margin": "auto", "fontFamily
 ])
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8051)
+    app.run(debug=False, dev_tools_ui=False, port=8051)

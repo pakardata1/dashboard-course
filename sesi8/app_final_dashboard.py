@@ -1,4 +1,5 @@
-# sesi8/app_final_dashboard.py — FINAL DASHBOARD PROJECT (Dash + Plotly + callback + ML inference)
+# .venv/bin/python sesi8/app_final_dashboard.py — FINAL DASHBOARD PROJECT (Dash + Plotly + callback + ML inference)
+
 import sys
 from pathlib import Path
 import pandas as pd

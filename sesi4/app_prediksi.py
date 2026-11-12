@@ -1,4 +1,5 @@
-# sesi4/app_prediksi.py — Integrasi final trained model ke dashboard Streamlit
+# streamlit run sesi4/app_prediksi.py — Integrasi final trained model ke dashboard Streamlit
+
 import sys
 from pathlib import Path
 import pandas as pd

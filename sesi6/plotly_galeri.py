@@ -1,4 +1,5 @@
-# sesi6/plotly_galeri.py — galeri 12 chart Plotly (jalankan: python sesi6/plotly_galeri.py)
+# .venv/bin/python sesi6/plotly_galeri.py — galeri 12 chart Plotly (jalankan: python sesi6/plotly_galeri.py)
+
 from pathlib import Path
 import pandas as pd
 import plotly.express as px

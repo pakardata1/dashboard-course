@@ -1,4 +1,4 @@
-# sesi7/app_dash_callback.py — sistem callback Dash: filter -> KPI, chart, tabel
+# .venv/bin/python sesi7/app_dash_callback.py — sistem callback Dash: filter -> KPI, chart, tabel
 from pathlib import Path
 import pandas as pd
 import plotly.express as px
@@ -138,4 +138,4 @@ def update_tabel(click, region, segment, kontrak, tenure, min_keluhan):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8052)
+    app.run(debug=False, dev_tools_ui=False, port=8052)

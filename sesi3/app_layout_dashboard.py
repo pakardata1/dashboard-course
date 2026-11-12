@@ -1,4 +1,5 @@
-# sesi3/app_layout_dashboard.py — Dashboard Streamlit dengan sidebar, columns, tabs
+# streamlit run sesi3/app_layout_dashboard.py — Dashboard Streamlit dengan sidebar, columns, tabs
+
 from pathlib import Path
 import pandas as pd
 import plotly.express as px

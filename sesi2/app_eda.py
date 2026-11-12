@@ -1,4 +1,4 @@
-# sesi2/app_eda.py — EDA interaktif di Streamlit dengan beragam visualisasi Plotly
+# streamlit run sesi2/app_eda.py — EDA interaktif di Streamlit dengan beragam visualisasi Plotly
 from pathlib import Path
 import pandas as pd
 import plotly.express as px

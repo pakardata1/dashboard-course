@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dash: app_halo",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/sesi5/app_halo.py",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

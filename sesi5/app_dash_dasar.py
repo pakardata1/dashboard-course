@@ -1,4 +1,5 @@
-# sesi5/app_dash_dasar.py — struktur dasar aplikasi Dash (tanpa callback)
+# .venv/bin/python sesi5/app_dash_dasar.py — struktur dasar aplikasi Dash (tanpa callback)
+
 from pathlib import Path
 import pandas as pd
 from dash import Dash, html, dcc, dash_table
@@ -54,4 +55,4 @@ app.layout = html.Div(style={"fontFamily": "Arial, sans-serif", "maxWidth": "110
 
 # 4. Menjalankan server
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(debug=False, dev_tools_ui=False, port=8050)

@@ -24,6 +24,12 @@ Semua perintah dijalankan dari folder ini.
 Model final: models/churn_model.joblib (scikit-learn 1.9.1). Data latihan bersifat sintetis.
 models/prepare_final_model.py hanya dokumentasi fasilitator — tidak dijalankan peserta.
 
+## Untuk keluar
+
+Untuk keluar dari tampilan tersebut di VS Code, kemungkinan Anda sedang menjalankan aplikasi Streamlit di Terminal.
+
+Tekan:  Control (⌃) + C
+
 
 ## Buka Terminal di VS Code
 
@@ -49,7 +55,7 @@ git push -u origin main
 
 
 ## Deploy ke Streamlit Cloud
-Buka Streamlit Community Cloud.
+Buka Streamlit Community Cloud ---> https://share.streamlit.io.
 
 Pilih:
 - Repository: dashboard-course
