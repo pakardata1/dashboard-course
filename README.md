@@ -49,8 +49,11 @@ git commit -m "Initial commit"
 2. Buat repository bernama dashboard-course.
 3. Kembali ke Terminal VS Code.
 4. Jalankan perintah berikut (ganti USERNAME dengan username GitHub Anda).
+
 git branch -M main
 git remote add origin https://github.com/USERNAME/dashboard-course.git
+git add .
+git commit -m "Initial commit"
 git push -u origin main
 
 
@@ -58,7 +61,9 @@ git push -u origin main
 Buka Streamlit Community Cloud ---> https://share.streamlit.io.
 
 Pilih:
+
 - Repository: dashboard-course
 - Branch: main
 - Main file path: sesi1/app_hello.py
+
 Klik Deploy.
