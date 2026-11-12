@@ -51,7 +51,6 @@ Jalankan:
 2. Buat repository bernama dashboard-course.
 3. Kembali ke Terminal VS Code.
 4. Jalankan perintah berikut (ganti USERNAME dengan username GitHub Anda).
-  
    git branch -M main
    git remote add origin https://github.com/USERNAME/dashboard-course.git
    git add .
