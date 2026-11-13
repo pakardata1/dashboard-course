@@ -1,4 +1,4 @@
-# .venv/bin/python sesi8/app_final_dashboard.py — FINAL DASHBOARD PROJECT (Dash + Plotly + callback + ML inference)
+# .venv/bin/python sesi8/app_final_dashboard_sidebar.py — FINAL DASHBOARD PROJECT (Dash + Plotly + callback + ML inference)
 # Struktur: Sidebar navigasi dengan 5 halaman
 #   1. Data Overview   2. Exploratory Data Analysis   3. Prediksi Single Observasi
 #   4. Prediksi Multi Observasi (upload CSV)   5. Tim Developer
